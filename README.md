@@ -7,20 +7,23 @@ Hello there! I'm a budding Cyber Security enthusiast, currently deep in the tren
 
 I'm on a journey to understand the intricacies of cyber security, from the ground up. My GitHub space here is primarily a collection of notes, projects, and experiments that I've undertaken as part of my learning process. I believe in the power of sharing knowledge and resources, hoping that they might assist others on their learning path as well.
 
-## My Pentest Project 🛡️
+## SMB Network Project 🛡️
 
-One of the cornerstone projects of my training involved conducting a penetration test within a controlled sandbox environment. This project was a hands-on experience that allowed me to apply theoretical knowledge in real-world scenarios, simulating an attacker's approach to understanding and exploiting vulnerabilities within a system.
+### Overview 
+This repository documents the completion of our project to build a Small/Medium Business (SMB) network. Our aim was to create a comprehensive network infrastructure encompassing various components essential for a typical SMB setup. Throughout the project, we focused on collaboration, learning, and implementing security best practices to ensure the integrity and reliability of our network.
 
-### Key Highlights:
+### Components Built:
 
-- **Reverse Shells**: Gained practical experience in establishing reverse shells, understanding the mechanism behind maintaining stealthy control over compromised systems.
+- **LAN, DMZ, and Guest Network**:
+Configured distinct network segments to segregate traffic based on security requirements.
 - **Proxychains**: Leveraged proxychains to obscure my attacks, routing through multiple proxies to conceal my location and evade detection.
-- **Pivoting**: Mastered the art of pivoting, using compromised systems to launch attacks on other targets within the network, effectively demonstrating the importance of network segmentation.
-- **Ping Sweeps**: Conducted ping sweeps to map out live systems within the network, identifying potential targets for further exploration and exploitation.
-- **Automation Tools**:
-  - **LinPEAS**: Utilized LinPEAS for automated privilege escalation and system enumeration, streamlining the process of identifying vulnerabilities.
-  - **Metasploit**: Employed Metasploit, a powerful framework for exploiting vulnerabilities, further enriching my understanding of various exploit techniques and payloads.
-
+- **Windows Domain Environment**: Implemented a Windows domain environment for centralized user authentication and resource management.
+- **IIS Webserver**: Deployed a Microsoft Internet Information Services (IIS) web server to host web applications and services.
+- **Windows FTP Server**: Set up a File Transfer Protocol (FTP) server on a Windows platform to facilitate file sharing and transfer.
+  - **Windows 10 Workstation**: Provisioned a Windows 10 workstation to simulate end-user computing within the network environment.
+  - **LAMP Webserver on Ubuntu**: Deployed a Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu to host a wiki platform for collaborative documentation.
+ - **FortiGate Firewall**: Implemented a FortiGate firewall to enforce network security policies, with a Virtual IP (VIP) configured for the DMZ web server.
+   
 ## My Learning Philosophy 🌱
 
 I believe in the hands-on approach to learning, where making mistakes is just another step towards mastery. The projects and notes you'll find here are a testament to this journey, reflecting both successes and learning opportunities.
